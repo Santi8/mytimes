@@ -1,3 +1,19 @@
+/* start of nav stylong and positioning*/
+nav {
+  display: inline-flex;
+}
+
+a {
+  margin: 20px;
+  color: black;
+}
+
+h2 {
+  color: MediumAquamarine;
+  margin-left: 90px;
+}
+
+/*start of flex box styling and positioning*/
 #header {
   display: inline-flex;
   justify-content: space-between;
@@ -11,18 +27,49 @@
   position: fixed;
   width: 1300px;
   border-bottom: 1px solid black;
+  z-index: 1;
+  background-color: white;
 }
 
-nav {
-  display: inline-flex;
+
+/*start of flexbox positioning for articles*/
+.container {
+  margin-top: 10px;
+}
+.article1{
+  border: 1px solid;
 }
 
-a {
-  margin: 20px;
-  color: black;
+.article2 {
+  border: 1px solid;
 }
 
-h2 {
-  color: MediumAquamarine;
-  margin-left: 90px;
+.article3 {
+  border: 1px solid;
+}
+
+.article3 {
+  border: 1px solid;
+}
+
+.article4 {
+  border: 1px solid;
+}
+
+.article5 {
+  border: 1px solid;
+}
+
+.sidebar {
+  background: url("../images/img-news-bite.png");
+  background-repeat: no-repeat;
+  border: 1px solid;
+}
+
+.sidearticle1 {
+  border: 1px solid;
+}
+
+.sidearticle2 {
+  border: 1px solid;
 }
