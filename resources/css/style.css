@@ -1,0 +1,27 @@
+#header {
+  display: inline-flex;
+  justify-content: space-between;
+  font-family: verdana, arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-image: url("../images/img-myt-logo.jpg");
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  position: fixed;
+  width: 1300px;
+  border-bottom: 1px solid black;
+}
+
+nav {
+  display: inline-flex;
+}
+
+a {
+  margin: 20px;
+  color: black;
+}
+
+h2 {
+  color: MediumAquamarine;
+  margin-left: 90px;
+}
