@@ -8,24 +8,37 @@ a {
   color: black;
 }
 
-h2 {
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo span {
   color: MediumAquamarine;
-  margin-left: 90px;
+  padding-left: 20px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 /*start of flex box styling and positioning*/
-#header {
-  display: inline-flex;
-  justify-content: space-between;
+header {
+  display: flex;
+  align-items: center;
   font-family: verdana, arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  background-image: url("../images/img-myt-logo.jpg");
-  background-repeat: no-repeat;
-  margin-left: 20px;
-  padding-bottom: 10px;
   position: fixed;
-  width: 1300px;
+  height: 80px;
+  width: 100%;
   border-bottom: 1px solid black;
   z-index: 1;
   background-color: white;
@@ -34,8 +47,29 @@ h2 {
 
 /*start of flexbox positioning for articles*/
 .container {
-  margin-top: 10px;
+    display: flex;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
 }
+
+.column.large {
+  width: 630px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
 .article1{
   border: 1px solid;
 }
@@ -60,9 +94,11 @@ h2 {
   border: 1px solid;
 }
 
+.cookie {
+  border: 1px solid;
+}
+
 .sidebar {
-  background: url("../images/img-news-bite.png");
-  background-repeat: no-repeat;
   border: 1px solid;
 }
 
